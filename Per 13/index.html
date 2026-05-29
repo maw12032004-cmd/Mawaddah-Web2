@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Download Script Form Input Data | PHP MySQL Tutorial</title> [cite: 78]
+    <style type="text/css" media="screen">
+        table { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; } [cite: 80]
+        input { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; height: 20px; } [cite: 81]
+    </style>
+</head>
+<body>
+    <div style="border:0; padding:10px; width:760px; height:auto;"> [cite: 85]
+        <form action="action-input-data.php" method="POST" name="form-input-data"> [cite: 86]
+            <table width="760" border="0" align="center" cellpadding="0" cellspacing="0"> [cite: 87]
+                <tr height="46">
+                    <td width="10%">&nbsp;</td> [cite: 89]
+                    <td width="25%">&nbsp;</td> [cite: 90]
+                    <td width="65%"><font color="orange" size="2">Form Input Data Mahasiswa</font></td> [cite: 91]
+                </tr>
+                <tr height="46">
+                    <td>&nbsp;</td> [cite: 94]
+                    <td>ID Mahasiswa / NIM</td> [cite: 95]
+                    <td><input type="text" name="id_mahasiswa" size="35" maxlength="6" /></td> [cite: 96]
+                </tr>
+                <tr height="46">
+                    <td>&nbsp;</td> [cite: 100]
+                    <td>Nama</td> [cite: 101]
+                    <td><input type="text" name="nama" size="50" maxlength="30" /></td> [cite: 102]
+                </tr>
+                <tr height="46">
+                    <td>&nbsp;</td> [cite: 105]
+                    <td>Jurusan</td> [cite: 106]
+                    <td>
+                        <select name="jurusan"> [cite: 107]
+                            <option value="-">- Pilih Jurusan -</option> [cite: 108]
+                            <option value="Teknik Komputer">Teknik Komputer</option> [cite: 109]
+                            <option value="Teknik Informatika">Teknik Informatika</option> [cite: 110]
+                            <option value="Teknik Mesin">Teknik Mesin</option> [cite: 111]
+                            <option value="Teknik Elektro">Teknik Elektro</option> [cite: 112]
+                            <option value="Komputer Akuntansi">Komputer Akuntansi</option> [cite: 113]
+                        </select>
+                    </td>
+                </tr>
+                <tr height="46">
+                    <td>&nbsp;</td> [cite: 117]
+                    <td>Alamat</td> [cite: 118]
+                    <td><input type="text" name="alamat" size="50" maxlength="30" /></td> [cite: 119]
+                </tr>
+                <tr height="46">
+                    <td>&nbsp;</td> [cite: 122]
+                    <td>No. Telp</td> [cite: 123]
+                    <td><input type="text" name="telepon" size="20" maxlength="12" /></td> [cite: 124]
+                </tr>
+                <tr height="46">
+                    <td>&nbsp;</td> [cite: 128]
+                    <td>&nbsp;</td> [cite: 129]
+                    <td>
+                        <input type="submit" name="Submit" value="Submit"> [cite: 130]
+                        <input type="reset" name="reset" value="Cancel"> [cite: 131]
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
